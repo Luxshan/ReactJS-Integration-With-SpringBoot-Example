@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+    padding: 175px;
+    font-size: 40px
+  }
+  
+  .form{
+    margin-top: -14px;
+  }
+  
+  .split-right {
+    height: 100%;
+    width: 45%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 60px;
+    border-radius: 5px;
+  }
+  
+  .split-left {
+    height: 100%;
+    width: 54.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 60px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: transparent;
+    /* background-image: url(../../assets/mng.jpg); */
+    background-size: cover;
+    
+  }
+  
+  .right {
+    right: 0;
+    border-radius: 5px;
+    /* background-color: #b3ffff; */
+  }
+  
+  input[type=text], select, textarea {
+    width: 500px;
+    padding: 12px;
+    border: 2px solid rgb(4, 202, 159);
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 6px 66px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: -7px 367px;
+    
+  }
+  
+  input[type = button] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: -25px 490px;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+    
+   }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    
+  }
+  
+  label {
+    margin: 66px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+
+
+  form.formModel {
+    text-align: center;
+  }
